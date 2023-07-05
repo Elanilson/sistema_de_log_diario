@@ -53,6 +53,10 @@ public class LogUtils {
                 appDir.mkdirs();
             }
 
+            // deletar os log antigo automaticamente 1 vez por mês
+            ExclucaoDeLogs.deleteOldLogs(context,appDir.getAbsolutePath());
+
+
             // Cria o nome do arquivo de log com a data atual
             String fileName = currentDate + ".txt";
 
@@ -89,4 +93,6 @@ public class LogUtils {
         CharSequence appName = context.getPackageManager().getApplicationLabel(context.getApplicationInfo());
         return (appName != null) ? appName.toString() : "LogApp";
     }
+
+
 }
