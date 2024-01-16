@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
          * e o fim do dia vai ter um relatiro de tudo que passo por ele.
          * Cada dia é um arquivo de log
          */
-        boolean isLogSaved = LogUtils.saveLogToFile(MainActivity.this, "CLick no button");
+        boolean isLogSaved = LogUtils.saveLogWithPermissionCheck(MainActivity.this, "CLick no button");
 
         if (isLogSaved) {
             // A pasta e o arquivo foram criados com sucesso

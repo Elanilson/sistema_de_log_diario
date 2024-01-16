@@ -1,0 +1,9 @@
+
+k
+java:S2095J"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(„ öà8±µø¸’1
+`
+java:S2583^"CChange this condition so that it does not always evaluate to "true"( ‰øˆ8²µø¸’1
+\
+java:S1118"":Add a private constructor to hide the implicit public one.(¹”ûùÿÿÿÿ8Áµø¸’1
+y
+java:S3252%"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(Ø˜šäüÿÿÿÿ8Äµø¸’1

@@ -1,0 +1,19 @@
+
+u
+java:S3008"XRename this field "LOG_DIRECTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Œ‘™8éï¾¹’1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(Ó’§Ÿÿÿÿÿÿ8Îâ¦¹’1
+y
+java:S3252"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(Ø˜šäüÿÿÿÿ8œâ­¹’1
+W	java:S899)";Do something with the "boolean" value returned by "delete".(ƒµ›”8â­¹’1
+k
+java:S4042)"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(ƒµ›”8â­¹’1
+R
+java:S1128
+"5Remove this unused import 'java.text.ParseException'.(ñ®ï•8Õ³Á¹’1
+T
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8Õ³Á¹’1
+O
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8Õ³Á¹’1
+X
+java:S1068"6Remove this unused "LOG_FILE_EXTENSION" private field.(úÖ°­ûÿÿÿÿ8¢â­¹’1
